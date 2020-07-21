@@ -1,0 +1,27 @@
+Curso de Udemy para profundizar varias cosas vistas en ReactJs y aprender redux
+
+- ReactJS  no es un framework porque esta enfocado unica y exclusivamente en construir interfaces de usuario 
+- Cuando hablamos de componentes, en realidad estamos hablando de pequeñas piezas de LEGO y a estas piezas las vamos a ir esamblando o juntado para construir una pieza mas grande 
+
+Donde se encuentra React en el contexto de una app? ->  
+En la arquitectura MVC (Modelo-Vista-Controlador) React esta enfocado a la vista  
+En la arquitectura FLUX (Estado - Acciones - Vista) a partir de la vista vamos a generar unas acciones (sincronas o asicronas) estas accione slo que van a hacer es actualizar el estado de nuestra app, Estado hace referencia a los datos que esta conteniendo nuestra app, no solo los de la base de datos sino datos enfocados a la vista, cuando el estado se actualice le va a indicar a React que se tiene que actualizar la vista
+
+El porque de ReactJS
+Como comenzamos a componer nuestra app? -> Siempre vamos a tener un componente padre el cual se componer de componentes hijos y esto de otros componentes hijos
+Herencia -> Programacion orientada a objetos ->la herencia se usa mucho en programacion orientada a objetos, los mas importante en la herencia es que :
+   - Las clases implementan metodos
+   - Asignan atributos
+   - Los metodos pueden modificar sus atributos 
+   - Los metodos pueden generar efectos 
+
+Componentes - Estructura App React -> vamos a tener un contenedor armado con varios componentes hijos y tambien a traves de un formulario. 
+El componente hijo va tener un elemento h1 que le podemos agregar distintos estilos apra utilizar en mas partes d enuestra app
+Tambien hay una seccion compartida
+Tambien tenelos del formulario los input 
+Lo bueno de esta arquitectura es que nosotros vamos definir los elementos una vez, esto quierde decir que vamos a definir los input con su estilo una unica vez y eso nosotros lo vamos a utilizar a lo alrgo de toda nuestra App 
+
+
+
+Para crear la app:
+1- npx create-react-app my-app
