@@ -1,0 +1,1 @@
+Esta es una app que estoy haciendo con un curso, mi objetivo es profundizar en conceptos que se de ReactJS y aprender redux, redux-form y varias cosas mas. 
