@@ -31,3 +31,8 @@ Los componentes van a tener un estado interno, esot quiere decir es que va  tene
 Las principales diferencias entre state y props, es que las Props se pasa de un padre a un hijo. En cambio, el State son de uso del mismo componente, pero pueden pasarse como props
 
 API Fetch-> fetch es un libreria que nos permite hacer llamados asincronos a otros servidores para asi podert buscar datos
+
+AXIOS -> es una libreria basada en promesas para realizar peticiones en un explorador wen o en node, esta puede interpretar el conteido por si solo sin necesidad de que le indiquemos que es un JSON
+yarn add axios  
+
+Mantener Usuarios
